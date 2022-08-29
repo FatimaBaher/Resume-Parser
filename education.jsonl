@@ -1,0 +1,2 @@
+{"label":"EDUCATION", "pattern":[{"LOWER":{"IN":["associate","bachelor's","master's","doctoral","master","bachelor", "bachelors", "masters", "bs", "phd", "doctorate", "professor"]}}, {"LOWER":"degree","OP":"?"},{"LOWER":{"IN":["of","in"]},"OP":"?"},{"ENT_TYPE":"SKILL","OP":"+"}]}
+

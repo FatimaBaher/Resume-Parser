@@ -1,0 +1,1 @@
+{"label":"GPE","pattern":[{"ENT_TYPE":"GPE"},{"Text":{"IN":[",","-","/"]},"OP":"?"},{"ENT_TYPE":"GPE"}]}

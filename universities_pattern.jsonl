@@ -1,0 +1,3 @@
+{"label": "UNIVERSITY", "pattern": [{"POS":"PROPN","OP":"{1,3}"}, {"LOWER": "university"}]}
+{"label": "UNIVERSITY", "pattern": [{"LOWER": "university"}, {"POS":"PROPN", "OP":"{1,3}"}]}
+{"label": "UNIVERSITY", "pattern": [{"ENT_TYPE":"GPE"}, {"LOWER": "university"}]}
