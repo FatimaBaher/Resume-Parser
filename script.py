@@ -92,6 +92,17 @@ class ResumeParser:
         
         
     def parseResume(self, resume_file_path):
+        ''' This function is used for collecting information from a resume and saving them in a dictionary
+        
+            The following are the collected information: Name, Email, Phone Nymber(s), Location, University Name(s), Education, Job Title(s), Skill(s)
+            
+            
+            Parameters:
+                resume_file_path (str): The path of the resume to be parsed
+                
+            Returns:
+                dict: The dictionary containing the parsed data
+        '''
         
         #Get text from pdf
         self.text = self.getTextFromDoc(resume_file_path)
